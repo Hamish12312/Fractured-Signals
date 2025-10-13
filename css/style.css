@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* horizontal centering */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: Lato, Arial;
+  text-align: center;
+}
+
+.fractured img, .signals img {
+  max-width: 88vw;
+  position: relative; /* for transform */
+  transition: transform 0.05s ease, filter 0.05s ease;
+}
+
+.whitetxt {
+  color: white;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 340px) {
+  .whitetxt {
+    font-size: 15px;
+    font-weight: 100;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .whitetxt {
+    font-size: 18px;
+  }
+  .signals img, .fractured img {
+    max-width: 420px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .signals img, .fractured img {
+    max-width: 42vw;
+  }
+}
