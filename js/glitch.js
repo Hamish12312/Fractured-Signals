@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const originalSrc = logo.src;
     const altSrc = "images/signals-glitch.png"; // replace with your alternate image
 
-    function glitchBurst(times = 3) {
+    function glitchBurst(times = 1) {
         if (times <= 0) {
             // pause before next burst
             const pause = 1000 + Math.random() * 3000; // 2–5s pause
-            setTimeout(() => glitchBurst(3), pause);
+            setTimeout(() => glitchBurst(1), pause);
             return;
         }
 
