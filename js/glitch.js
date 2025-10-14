@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // get logo size for proportional movement
         const rect = logo.getBoundingClientRect();
         const x = (Math.random() - 0.5) * rect.width * 0.1;
-        const y = (Math.random() - 0.5) * rect.height * 0.1;
+        const y = (Math.random() - 0.5) * rect.height * 0;
         const rotate = (Math.random() - 0.5) * 0; // small rotation
 
         // 🎛️ random visual distortion
