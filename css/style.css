@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     height: 100vh;
@@ -9,6 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: Lato, Arial;
+    font-weight:300;
     text-align: center;
 }
 .fractured img {
@@ -28,11 +31,13 @@ body {
     font-size: 10px;
 }
 @media screen and (min-width: 340px) {
+    body {
+        font-weight: 200;
+    }
     .whitetxt {
         margin-left: auto;
         margin-right: auto;
         font-size: 15px;
-        font-weight: 100;
     }
 }
 @media screen and (min-width: 480px) {
