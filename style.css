@@ -185,7 +185,7 @@ body::before {
   padding: 8rem 2rem;
   text-align: center;
   background: #0a0a0a;
-  scroll-margin-top: 90px;
+  scroll-margin-top: 10px;
 }
 
 /* Subtle alternating tone */
