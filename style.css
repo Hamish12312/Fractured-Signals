@@ -218,6 +218,10 @@ body::before {
   border: 0;
 }
 
+.coverart {
+    width: 30%;
+  }
+
 /* ======================
    FOOTER
 ====================== */
@@ -260,6 +264,9 @@ footer {
   }
 
   .video-wrapper {
+    width: 95%;
+  }
+  .coverart {
     width: 95%;
   }
 }
