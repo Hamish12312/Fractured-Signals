@@ -79,7 +79,7 @@ body::before {
 }
 
 .nav a:hover {
-  color: #00ff88;
+  color: rgb(97, 212, 248);
 }
 
 /* Desktop Social Position */
