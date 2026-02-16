@@ -205,6 +205,10 @@ body::before {
   line-height: 1.7;
 }
 
+.content-image {
+  width: 50%;
+}
+
 /* ======================
    RESPONSIVE VIDEO
 ====================== */
@@ -269,6 +273,10 @@ footer {
     width: 95%;
   }
   .coverart {
+    width: 95%;
+  }
+  
+  .content-image {
     width: 95%;
   }
 }
