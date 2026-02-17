@@ -188,7 +188,7 @@ body::before {
   padding: 8rem 2rem;
   text-align: center;
   background: #0a0a0a;
-  scroll-margin-top: 110px;
+  scroll-margin-top: 1px;
 }
 
 .content-section:nth-of-type(even) {
@@ -373,7 +373,7 @@ footer {
 
   .content-section {
     padding: 6rem 1.5rem;
-    scroll-margin-top: 120px;
+    scroll-margin-top: 60px;
   }
 
   .video-wrapper {
