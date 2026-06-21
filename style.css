@@ -338,14 +338,12 @@ footer {
 /* ======================
    RESPONSIVE FIXES
 ====================== */
-@media (max-width: 1000px) {
-  .gallery-grid {
-    column-count: 2;
+@media (max-width: 1200px) {
+  .nav-social {
+    position: static;
+    justify-content: center;
+    margin-top: 0.5rem;
   }
-}
-
-@media (max-width: 768px) {
-
   .nav {
     flex-direction: column;
     align-items: center;
@@ -360,16 +358,22 @@ footer {
     font-size: 0.85rem;
   }
 
-  .nav-social {
-    position: static;
-    justify-content: center;
-    margin-top: 0.5rem;
-  }
-
   .nav-social img {
     width: 24px;
     height: 24px;
   }
+  .gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 1000px) {
+  .gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 768px) {
 
   .content-section {
     padding: 6rem 1.5rem;
